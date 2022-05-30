@@ -6,3 +6,4 @@ In this folder have severals forms to launch a fetch in javascript. In this docu
 
 ## Frist form: **Callbacks**
 
+Example in [callback.js](callbacks.js)
