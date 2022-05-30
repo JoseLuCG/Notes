@@ -34,14 +34,30 @@ Example in [*promises.js*](promises.js).
 
 In this manner the fetch is realized with the promises.
 
-The promises are objects with two methods: ```then()``` and ```catch()```. It is something that is expected to receive in the future but we do not know if will receive it.
+The promises are objects with two methods: `then()` and `catch()`. It is something that is expected to receive in the future but we do not know if will receive it.
 
 ```javascript
 fetch("https://AnyDirection").then().catch();
 
 ```
-With *```then()```* manage the promise in the case that the promise returns a positive response.
+With *`then()`* manage the promise in the case that the promise returns a positive response.
 
-With *```catch()```* manage the promise in the case of any error or a negative response.
+With *`catch()`* manage the promise in the case of any error or a negative response.
 
 ---
+
+## Second form: **Promises**
+
+Example in [*async_await.js*](async_await.js).
+
+In this form use the async functions for manage the fetch with `await`.
+
+```javascript 
+async function a () {
+    const resp = await fetch("https://AnyDirection");
+    //This step is necesary because the .json() method is asynchronous.
+    const json = await response.json();
+    console.log("Result of the await:",json);
+}
+//Call to the function.
+a()
