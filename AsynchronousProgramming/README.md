@@ -46,7 +46,7 @@ With *`catch()`* manage the promise in the case of any error or a negative respo
 
 ---
 
-## Second form: **Promises**
+## Third form: **Async/Await**
 
 Example in [*async_await.js*](async_await.js).
 
