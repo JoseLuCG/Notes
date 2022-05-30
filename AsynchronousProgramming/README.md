@@ -26,3 +26,18 @@ Before this, inplements in the method:
 //Call to the callbacks:
 navigator.geolocation.getCurrentPosition(a,b);
 ```
+---
+
+## Second form: **Promises**
+
+Example in [*promises.js*](promises.js).
+
+In this manner the fetch is realized with the promises.
+
+```javascript
+fetch("https://AnyDirection").then().catch();
+
+```
+With *```then()```* we work in the positive response of the promise. In the case that the promise returns a positive response.
+
+With *```catch()```* we work in the case of any error or a negative response.
