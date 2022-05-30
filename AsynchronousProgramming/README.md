@@ -34,10 +34,14 @@ Example in [*promises.js*](promises.js).
 
 In this manner the fetch is realized with the promises.
 
+The promises are objects with two methods: ```then()``` and ```catch()```. It is something that is expected to receive in the future but we do not know if will receive it.
+
 ```javascript
 fetch("https://AnyDirection").then().catch();
 
 ```
-With *```then()```* we work in the positive response of the promise. In the case that the promise returns a positive response.
+With *```then()```* manage the promise in the case that the promise returns a positive response.
 
-With *```catch()```* we work in the case of any error or a negative response.
+With *```catch()```* manage the promise in the case of any error or a negative response.
+
+---
