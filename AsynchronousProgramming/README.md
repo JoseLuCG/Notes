@@ -62,4 +62,4 @@ async function a () {
 //Call to the function.
 a()
 ```
-The `await` manage the promise for us. In this case we not work with the them and catch methods.
+The `await` manage the promise for us. In this case we not work with the `them()` and `catch()` methods.
