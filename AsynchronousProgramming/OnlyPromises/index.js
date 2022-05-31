@@ -52,6 +52,7 @@ function getLocation () {
             )
         }
     );
+    return geolocalization;
 }
 
 getLocation().then().catch();
