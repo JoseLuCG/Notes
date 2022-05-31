@@ -55,4 +55,11 @@ function getLocation () {
     return geolocalization;
 }
 
-getLocation().then().catch();
+getLocation().then(
+    data => console.log(data)
+).catch();
+/*
+    In the `resolve` receibe a data parameter. For 
+    that will be show in the console we will do 
+    write a console.log with data, that is the data.
+*/
