@@ -1,0 +1,28 @@
+h1, h2 {
+    color: blue;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+li {
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    color: green;
+}
+
+.contact {
+
+}
+
+#telefono {
+    color: brown;
+}
+
+span {
+ color: red;
+}
