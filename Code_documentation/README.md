@@ -1,5 +1,10 @@
 # **GitHub markdown**
+El link de la documentación:
 
+[Documentación markdown Github.](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+---
+---
 Para marcar los títulos empleamos **#**:
 ```markdown
 # Titulo 1
@@ -95,7 +100,3 @@ Para las fotos seria  ![nombre] (Link de la foto):
 ![Insertar imágenes](https://github.githubassets.com/images/modules/site/about/octocats.webp)
 
 ![Gatitos](./img/gatitos.jpg)
-
-Y unas cuantas cosas más: [documentación](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
-
