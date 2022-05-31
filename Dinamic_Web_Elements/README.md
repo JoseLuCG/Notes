@@ -5,6 +5,7 @@ In this folder have a example of a web with dinamic components. The html code ha
 For this is necesary take the acces at the DOM objects and create them.
 
 ```javascript
+// This function create a new article.
 function newArticle (titleText, shortText, fullText) {
     // Create the elements:
     const article = document.createElement('article');
