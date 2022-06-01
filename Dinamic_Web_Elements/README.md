@@ -1,6 +1,6 @@
 # **Documentation**
 
-In this folder have a example of a web with dinamic components. The html code has made by the javascript code.
+In this folder have a example of a web with dinamic components. The html code has made by the javascript code. The [_link to insertContents.js_](insertContents.js)
 
 For this is necesary take the acces at the DOM objects and create them.
 
