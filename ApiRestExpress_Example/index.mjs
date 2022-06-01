@@ -1,5 +1,5 @@
 import express from 'express';
-// const express = requestuire("express");
+// const express = require("express");
 
 // Asignamos un número de puerto para acceder a la App
 // Mira la linea ...
