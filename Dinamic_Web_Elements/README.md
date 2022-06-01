@@ -23,3 +23,29 @@ function newArticle (titleText, shortText, fullText) {
     return article;
 }
 ```
+ Before this we need create the contents that we pt in the article. Make of this way:
+
+ ```javascript
+ function insertContents () {
+     // Create the contents.
+    const contents = [
+        {
+            title: "Any things",
+            short: "Any things",
+            full: "Any things"
+        },
+        {
+            title: "Any things 2",
+            short: "Any things 2",
+            full: "Any things 2"
+        }
+    ];
+    // Take the access to DOM objects.
+    const container = document.querySelector('#contents');
+    // Put each object of `contents` in article.
+    for (let item of contents) {
+        const article = newArticle(item.title, item.short, item.full);
+        container.appendChild(article);
+    }
+}
+ ```
