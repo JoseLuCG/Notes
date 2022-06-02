@@ -23,3 +23,20 @@ After this, initialize the express instance:
 const app = express();
 ```
 To use _json_ in the conecction between the frontend and the backend, we must use a midleware: `express.json()`.
+
+Can implement this tool of two forms:
+
+* Using it in all endpoints:
+    ```js
+    app.use(express.json()); 
+    ```
+* Make this a midleware and implement it in the endpoint that realy need them.
+    ```js
+    //Create the midleware.
+    const jsonParser = express.json(); 
+    
+    ///Using it:
+    app.post("/anyroute/",jsonParser,anyControler); 
+    ```
+
+After this we can define the endpoints.
