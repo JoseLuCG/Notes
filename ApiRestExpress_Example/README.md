@@ -22,3 +22,4 @@ After this, initialize the express instance:
 ```javascript
 const app = express();
 ```
+To use _json_ in the conecction between the frontend and the backend, we must use a midleware: `express.json()`.
