@@ -18,3 +18,7 @@ Then, assign in a _constant_ the port number:
 ```javascript
 const PORT = 3000;
 ```
+After this, initialize the express instance:
+```javascript
+const app = express();
+```
