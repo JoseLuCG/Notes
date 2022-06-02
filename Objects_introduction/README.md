@@ -20,3 +20,9 @@ class Warrior {
     }
 }
 ```
+In each file is used diferets forms of transform the array in a object.
+
+* Using `.forEach()` method: in [_forEach.js_](forEach.js)
+* Using `for of`: in [_forOf.js_](forOf.js)
+* Using a `.map()`
+method: in [_map.js_](map.js).
