@@ -1,0 +1,7 @@
+.taskInput {
+    border: none;
+}
+
+.taskInput:focus {
+    border: unset;
+}
